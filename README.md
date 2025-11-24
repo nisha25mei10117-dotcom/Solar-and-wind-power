@@ -59,6 +59,7 @@ It includes Problem Statement, Scope, Target Users, and High-Level Features for 
 Statement.md
 
 PROBLEM STATEMENT:
+
 The global demand for renewable energy forecasting and optimization is increasing rapidly. However, access to reliable, structured, and easy-to-use solar and wind power generation datasets remains limited.
 Researchers, data scientists, and engineers often struggle with:
 Inconsistent or missing renewable energy data
@@ -81,6 +82,7 @@ Sample scripts for loading, testing, and visualizing data
 Dataset quality checks and validation
 
 OUT OF SCOPE:
+
 Real-time streaming energy data
 Commercial or proprietary energy data
 Hardware-level turbine or solar cell diagnostics
@@ -91,12 +93,14 @@ TARGET USERS:
 The dataset is designed for:
 
 PRIMARY USERS:
+
 Data Scientists — to build forecasting and ML models
 Researchers — studying renewable energy patterns
 Students — working on energy analytics projects
 Energy Analysts — optimizing grid or plant performance
 
 SECONDARY USERS:
+
 Developers building energy dashboards
 Government/NGO sustainability projects
 Educators teaching renewable energy concepts
@@ -104,20 +108,24 @@ Educators teaching renewable energy concepts
 HIGH-LEVEL FEATURES:
 
 SOALR ENERGY DATA:
+
 Solar irradiance
 Temperature
 Power output (kW)
 
 WIND ENERGY DATA:
+
 Wind speed & direction
 Atmospheric pressure
 Power output (kW)
 
 TIME SERIES FORMAT:
+
 Clean timestamps
 Ready for forecasting models
 
 DATA QUALITY AND DOCUMENTATION:
+
 Missing value analysis
 Metadata description file
 Validation/testing scripts
