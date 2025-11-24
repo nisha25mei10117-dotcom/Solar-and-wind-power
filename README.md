@@ -100,14 +100,19 @@ The dataset is designed for:
 PRIMARY USERS:
 
 Data Scientists — to build forecasting and ML models
+
 Researchers — studying renewable energy patterns
+
 Students — working on energy analytics projects
+
 Energy Analysts — optimizing grid or plant performance
 
 SECONDARY USERS:
 
 Developers building energy dashboards
+
 Government/NGO sustainability projects
+
 Educators teaching renewable energy concepts
 
 HIGH-LEVEL FEATURES:
@@ -115,23 +120,31 @@ HIGH-LEVEL FEATURES:
 SOALR ENERGY DATA:
 
 Solar irradiance
+
 Temperature
+
 Power output (kW)
 
 WIND ENERGY DATA:
 
 Wind speed & direction
+
 Atmospheric pressure
+
 Power output (kW)
 
 TIME SERIES FORMAT:
 
 Clean timestamps
-Ready for forecasting models
+
+read for forecasting models
 
 DATA QUALITY AND DOCUMENTATION:
 
 Missing value analysis
+
 Metadata description file
+
 Validation/testing scripts
+
 python test_dataset.py
