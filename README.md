@@ -2,8 +2,10 @@
 DATASETS for solar-and-wind-power
 PROJECT TITLE: 
 Solar-and-wind-power-generations.
+
 OVERVIEW: 
 This repository contains a curated dataset focused on solar and wind power generation. it includes historical measurements of energy production, weather parameters, and turbine/solar perfomance indicators. The dataset is ideal for machine learning, renewable energy forecasting, time-series analysis, and reasearch on sustainable energy systems.
+
 FEATURES:
 Multi-source renewable energy data (solar panels + wind turbines)
 Time-series format (hourly/daily records)
@@ -19,6 +21,7 @@ Forecasting models
 Load balancing simulations
 Energy optimization algorithms
 Includes metadata for easy understanding of each column.
+
 INSTALLATION:
 1. Clone the Repository
 git clone https://github.com/your-username/solar-wind-dataset.git
@@ -30,6 +33,7 @@ source venv/bin/activate       # Linux/Mac
 venv\Scripts\activate          # Windows
 3. Install Dependencies
 pip install -r requirements.txt
+
 TESTING AND USAGE:
 1. Load the Dataset
 import pandas as pd
