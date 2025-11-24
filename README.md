@@ -53,4 +53,72 @@ plt.ylabel("Power (kW)")
 plt.title("Solar & Wind Power Generation Over Time")
 plt.show()
 4. Run the Test Script (if included)
+Below is a complete, clean statement.md template you can directly use in your GitHub repository.
+It includes Problem Statement, Scope, Target Users, and High-Level Features for a Solar and Wind Power Generation Dataset project.
+
+Statement.md
+
+PROBLEM STATEMENT:
+The global demand for renewable energy forecasting and optimization is increasing rapidly. However, access to reliable, structured, and easy-to-use solar and wind power generation datasets remains limited.
+Researchers, data scientists, and engineers often struggle with:
+Inconsistent or missing renewable energy data
+Lack of metadata and standardized formats
+Difficulty in comparing solar and wind energy variations
+Limited resources for building machine learning forecasting models
+This project aims to solve these challenges by providing a clean, comprehensive, and well-documented dataset that can support energy prediction, analysis, and system optimization.
+
+SCOPE OF THE PROJECT:
+
+This dataset project covers the following:
+
+Included in Scope
+Historical solar power generation data
+Historical wind power generation data
+Weather-related variables affecting production
+Time-series formatted data (hourly/daily)
+Metadata documentation for all fields
+Sample scripts for loading, testing, and visualizing data
+Dataset quality checks and validation
+
+OUT OF SCOPE:
+Real-time streaming energy data
+Commercial or proprietary energy data
+Hardware-level turbine or solar cell diagnostics
+Predictive models (but the dataset supports building them)
+
+TARGET USERS:
+
+The dataset is designed for:
+
+PRIMARY USERS:
+Data Scientists — to build forecasting and ML models
+Researchers — studying renewable energy patterns
+Students — working on energy analytics projects
+Energy Analysts — optimizing grid or plant performance
+
+SECONDARY USERS:
+Developers building energy dashboards
+Government/NGO sustainability projects
+Educators teaching renewable energy concepts
+
+HIGH-LEVEL FEATURES:
+
+SOALR ENERGY DATA:
+Solar irradiance
+Temperature
+Power output (kW)
+
+WIND ENERGY DATA:
+Wind speed & direction
+Atmospheric pressure
+Power output (kW)
+
+TIME SERIES FORMAT:
+Clean timestamps
+Ready for forecasting models
+
+DATA QUALITY AND DOCUMENTATION:
+Missing value analysis
+Metadata description file
+Validation/testing scripts
 python test_dataset.py
